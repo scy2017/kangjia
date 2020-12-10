@@ -1,0 +1,133 @@
+@charset "UTF-8";
+/* 去掉标签的margin和padding */
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img, input {
+  margin: 0;
+  padding: 0;
+}
+
+/* body针对整体项目的样式 */
+body {
+  font-size: 16px;
+  font-family: Arial, "Microsoft YaHei";
+}
+
+/* 默认的倾斜 */
+em, i {
+  font-style: normal;
+}
+
+/* 默认的加粗 */
+b, strong {
+  font-weight: normal;
+}
+
+/* 下划线 */
+a, u {
+  text-decoration: none;
+}
+
+/* 列表符号 */
+ul, ol, li {
+  list-style: none;
+}
+
+/* 标题标签 */
+h1, h2, h3, h4, h5, h6 {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+/* 图片处理 */
+img {
+  /* display:block; */
+  border: 0;
+}
+
+/* fieldset */
+fieldset {
+  border: 0;
+}
+
+/* input */
+input {
+  background: none;
+  border: none;
+  outline: none;
+}
+
+/* textarea */
+textarea {
+  resize: none;
+}
+
+/* 提前封装一些类名 */
+.float_l {
+  float: left;
+}
+
+.float_r {
+  float: right;
+}
+
+/* 去掉边框 */
+.border_none {
+  border: none !important;
+}
+
+/* 去掉背景 */
+.bg_none {
+  background: none !important;
+}
+
+/* 高度塌陷 */
+.clear_fix:after {
+  content: " ";
+  clear: both;
+  display: block;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+.clear_fix {
+  zoom: 1;
+}
+
+/* 单行文本省略号显示 */
+.text_ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* 元素在浏览器左右上下居中 */
+.fixed_center {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+/* 元素在父元素左右上下居中 */
+.child_center {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.margin0 {
+  margin: 0 !important;
+}
+
+.paddingL_none {
+  padding-left: 0 !important;
+}
+
+* {
+  box-sizing: border-box;
+}

@@ -1,0 +1,241 @@
+.main-container {
+  position: relative;
+}
+
+.login-bg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.passport-signup-container {
+  width: 100%;
+  height: 588px;
+  background: #e8e8e8;
+}
+
+.panel {
+  margin-bottom: 20px;
+  background-color: #fff;
+  border: 1px solid transparent;
+  -webkit-border-radius: 2px;
+     -moz-border-radius: 2px;
+          border-radius: 2px;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+     -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+          box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+.login-ba {
+  height: 100%;
+  width: 100%;
+}
+
+.login-width {
+  width: 1140px;
+  height: 588px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.signup-panel {
+  position: absolute;
+  top: 104px;
+  right: 0;
+  width: 450px;
+}
+
+.panel-default > .panel-heading {
+  color: #333;
+  background-color: #f5f5f5;
+  border-color: #ddd;
+}
+
+.panel-heading {
+  padding: 10px 15px;
+  border-bottom: 1px solid transparent;
+  border-bottom-color: transparent;
+  -webkit-border-top-left-radius: 1px;
+     -moz-border-radius-topleft: 1px;
+          border-top-left-radius: 1px;
+  -webkit-border-top-right-radius: 1px;
+     -moz-border-radius-topright: 1px;
+          border-top-right-radius: 1px;
+}
+
+.pull-right {
+  float: right !important;
+}
+
+.btn-group-xs > .btn,
+.btn-xs {
+  padding: 1px 5px;
+  font-size: 12px;
+  line-height: 1.5;
+  -webkit-border-radius: 1px;
+     -moz-border-radius: 1px;
+          border-radius: 1px;
+}
+
+.btn-danger {
+  color: #fff;
+  background-color: #c13e2c;
+  border-color: #ac3727;
+}
+
+.checkbox a {
+  font-size: 12px;
+  color: #666;
+}
+
+.btn {
+  margin-bottom: 0;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+}
+
+.btn-warning {
+  width: 54px;
+  height: 34px;
+  color: #fff;
+  background-color: #f99e1e;
+  border-color: #f79307;
+}
+
+.panel-body {
+  padding: 15px;
+}
+
+.form-group {
+  margin: 0 -15px 20px -15px;
+}
+
+.form-horizontal .control-label {
+  padding-top: 7px;
+  margin-bottom: 0;
+  text-align: right;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  -webkit-border-radius: 2px;
+     -moz-border-radius: 2px;
+          border-radius: 2px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+     -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s;
+  transition: border-color ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s;
+  -moz-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s, -moz-box-shadow ease-in-out 0.15s;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s, -moz-box-shadow ease-in-out 0.15s;
+}
+
+.control-label {
+  padding-top: 7px;
+  margin-bottom: 0;
+  text-align: right;
+  width: 25%;
+  float: left;
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.col-md-9 {
+  width: 75%;
+  float: left;
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+}
+
+.col-md-4 {
+  width: 33.333333%;
+  float: left;
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+}
+
+.col-md-5 {
+  position: relative;
+  min-height: 1px;
+  line-height: 34px;
+  padding-right: 15px;
+  float: left;
+  width: 36.6666667%;
+}
+
+.col-md-offset-3 {
+  margin-left: 25%;
+}
+
+.btn-login {
+  width: 54px;
+  height: 34px;
+  color: #fff;
+  background-color: #e92424;
+}
+
+.btn-sm {
+  font-size: 10px;
+}
+
+.pwd_null {
+  display: none;
+}
+
+.pwd_true {
+  display: none;
+}
+
+.pwd_false {
+  display: none;
+}
+
+.btn-sm.pwd_show {
+  display: block;
+}
+
+.login_err,
+.login_succ,
+.register_reset,
+.register_succ {
+  margin-left: 50px;
+  background-color: red;
+  color: #fff;
+  display: none;
+}
+
+.login_succ,
+.register_succ {
+  background-color: green;
+}
+
+.register_reset,
+.register_succ {
+  margin-left: 20px;
+}
